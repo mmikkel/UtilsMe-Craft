@@ -1,0 +1,15 @@
+{% import '_includes/forms' as forms %}
+
+<div class="field" id="hideNavTab-field">
+    <div class="heading">
+        <label for="hideNavTab">Hide nav tab</label>
+        <p class="instructions">Hides the "Utilities" nav tab.</p>
+        {{ forms.lightswitch({
+            id: 'hideNavTab',
+            name: 'hideNavTab',
+            on : settings.hideNavTab,
+        }) }}
+    </div>
+</div>
+
+<hr />

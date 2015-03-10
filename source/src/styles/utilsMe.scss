@@ -1,0 +1,43 @@
+#nav-utilsme {
+
+	display: none;
+	position: relative;
+
+	&.js-init {
+		display: list-item;
+	}
+
+}
+
+#utilsTab-dropdown {
+
+	display: inline-block;
+	position: absolute;
+	width: auto;
+	top: 0; left: 0;
+
+	z-index: 9999;
+
+	user-select: none;
+
+	ul {
+		display: block;
+		margin: 0; padding: 0;
+		padding: 4px 0;
+		list-style: none;
+	}
+
+	a {
+		display: block !important;
+		white-space: nowrap;
+		padding: 3px 14px;
+		font-size: 12px;
+		text-decoration: none !important;
+		color: #29323d !important;
+		&:hover,
+		&:active {
+			background-color: #d5d8dd;
+		}
+	}
+
+}
