@@ -1,5 +1,7 @@
 # Utilities Me! Craft CMS plugin v. 1.0
 
+**Notice: This plugin is made redundant by Craft 2.5+, which adds a link to the Utilities section in the CP footer. Utilities Me! is no longer maintained and will receive no updates or bug fixes going forward.**
+
 _Uncover the glory of the hidden Utilities CP section_
 
 Utilities Me! grants easy access to Craft’s hidden _Utilities_ CP section, by adding all of its subpages to Craft's CP settings. Utilities Me! also provides a nifty _nav tab_, which can be hidden via the plugin settings if it annoys you.
